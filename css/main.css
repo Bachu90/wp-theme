@@ -4,8 +4,19 @@ header {
     height: 100px;
 }
 
+header.secondary {
+    background: #900;
+}
+
 .page-wrap {
     padding: 2rem 0;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .top-bar {

@@ -8,4 +8,13 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<p>this is secondary header</p>
+<header class="secondary">
+    <div class="container">
+    <?php
+      wp_nav_menu(array(
+          'theme_location' => 'top-menu',
+          'menu_class' => 'top-bar'
+      ));  
+    ?>
+    </div>
+</header>
